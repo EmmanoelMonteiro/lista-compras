@@ -4,6 +4,8 @@ Este é um projeto simples de uma **Lista de Compras** para demonstrar o uso de 
 
 A aplicação funciona como uma **Single-Page Application (SPA)**, onde toda a manipulação da interface e dos dados é feita diretamente no navegador (lado do cliente). O Node.js é usado apenas para servir os arquivos estáticos.
 
+![Preview da Lista de Compras](ListaCompras.png)
+
 ---
 
 ### 💻 Tecnologias Utilizadas
