@@ -19,7 +19,7 @@ A aplicação funciona como uma **Single-Page Application (SPA)**, onde toda a m
 
 A arquitetura do projeto foi pensada para ser modular e organizada, com cada tecnologia em seu próprio diretório.
 
-```Bash
+```bash
 lista-compras/
 ├── public/
 │   ├── css/
@@ -38,13 +38,23 @@ lista-compras/
 
 Siga os passos abaixo para rodar a aplicação em seu ambiente local:
 
-1.  **Baixe e extraia o arquivo zip** com o projeto completo.
-2.  Abra o terminal e navegue até a pasta raiz do projeto (`lista-compras`).
-3.  **Inicie o servidor Node.js** com o seguinte comando:
+1.  **Verifique a instalação do Node.js:** Certifique-se de que você tem o Node.js instalado em sua máquina. Você pode verificar a versão com o seguinte comando no terminal:
+    ```sh
+    node -v
+    ```
+2.  **Clone o repositório:** Abra seu terminal e clone o projeto do GitHub.
+    ```sh
+    git clone https://github.com/EmmanoelMonteiro/lista-compras.git
+    ```
+3.  **Acesse a pasta do projeto:** Navegue até o diretório do projeto que foi clonado.
+    ```sh
+    cd lista-compras
+    ```
+4.  **Inicie o servidor Node.js** com o seguinte comando:
     ```sh
     node server.js
     ```
-4.  Abra seu navegador e acesse o endereço:
+5.  Abra seu navegador e acesse o endereço:
     [http://localhost:3000/](http://localhost:3000/)
 
 ---
